@@ -122,12 +122,12 @@ a {
     gap: 50px;
 }
 
-.banner-desc {
+.banner-description {
     max-width: 500px;
     gap: 24px;
 }
 
-.banner-desc h1 {
+.banner-description h1 {
     color: var(--Black, #111);
     font-family: Quicksand;
     font-size: 3.2rem;
@@ -136,7 +136,7 @@ a {
     align-self: stretch;
 }
 
-.banner-desc p {
+.banner-description p {
     color: var(--Black, #111);
     font-family: Quicksand;
     font-size: 1.25rem;
@@ -290,29 +290,6 @@ a {
     font-weight: 700;
 }
 
-.story-box {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 19px;
-}
-
-.story-img {
-    height: auto;
-}
-
-.story-img img {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 16px 16px 0 0;
-}
-
-.story-card {
-    background-color: white;
-    border-radius: 16px;
-}
-
 .first {
     grid-column: span 2;
     grid-row: span 2;
@@ -379,6 +356,28 @@ a {
     font-weight: 700;
     line-height: 25px;
     padding-top: 38px;
+}
+.story-box {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 19px;
+}
+
+.story-img {
+    height: auto;
+}
+
+.story-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+.story-card {
+    background-color: white;
+    border-radius: 16px;
 }
 
 .last-btn {
@@ -514,6 +513,22 @@ footer a {
     .navbar .logo h3 {
         display: none;
     }
+    .hero .banner-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        align-self: stretch;
+    }
+    .hero h1 {
+        font-size: 2rem;
+        line-height: normal;
+    }
+    .banner-btn {
+        flex-direction: column;
+        gap: 15px;
+    }
     .navbar .icon {
         display: initial;
     }
@@ -536,24 +551,23 @@ footer a {
         gap: 18px;
         align-self: stretch;
     }
-    .hero .banner-desc {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 18px;
-        align-self: stretch;
-    }
-    .hero h1 {
-        font-size: 2rem;
-        line-height: normal;
-    }
-    .banner-btn {
-        flex-direction: column;
-        gap: 15px;
-    }
+
     .icons {
         display: none;
+    }
+    .story-card .story-desc {
+        padding: 0 23px 17px 22px;
+    }
+    .story-desc h3 {
+        padding-top: 25px;
+    }
+    footer .about {
+        padding: 50px 15px 50px 20px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-logo {
+        position: relative;
     }
     .card-box {
         flex-direction: column;
@@ -581,18 +595,5 @@ footer a {
         font-size: 0.5rem;
         line-height: 17px;
     }
-    .story-card .story-desc {
-        padding: 0 23px 17px 22px;
-    }
-    .story-desc h3 {
-        padding-top: 25px;
-    }
-    footer .about {
-        padding: 50px 15px 50px 20px;
-        flex-direction: column;
-        gap: 30px;
-    }
-    .footer-logo {
-        position: relative;
-    }
+
 }
