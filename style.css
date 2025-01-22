@@ -4,21 +4,21 @@
     box-sizing: border-box;
 }
 
-.c1,
+.cOne,
 .s1 {
     color: rgba(254, 163, 1, 1);
 }
 
-.c2,
+.cTwo,
 .s2 {
     color: rgba(1, 172, 253, 1);
 }
 
-.c3 {
+.cThree {
     color: rgba(5, 212, 223, 1);
 }
 
-.c4 {
+.cFour {
     color: rgba(93, 88, 239, 1);
 }
 
@@ -91,7 +91,7 @@ a {
     font-weight: 700;
 }
 
-.btn-1 {
+.btn-one {
     display: flex;
     width: 148px;
     padding: 10px;
@@ -110,7 +110,7 @@ a {
     border: none;
 }
 
-.btn-1:hover {
+.btn-one:hover {
     color: var(--Orange, #FEA301);
     background: lightgrey;
 }
@@ -146,7 +146,7 @@ a {
     margin: 24px 0;
 }
 
-.btn-2 {
+.btn-two {
     display: flex;
     width: 197px;
     padding: 10px;
@@ -163,7 +163,7 @@ a {
     line-height: 30px;
 }
 
-.btn-2:hover {
+.btn-two:hover {
     color: var(--Black, #111);
     background: white;
 }
@@ -332,15 +332,15 @@ a {
     font-weight: 500;
 }
 
-.btn-3 {
+.btn-three {
     background-color: #3cd8e8;
 }
 
-.btn-4 {
+.btn-four {
     background-color: #95b226;
 }
 
-.btn-5 {
+.btn-five {
     background-color: #5d58f0;
 }
 
@@ -386,7 +386,7 @@ a {
     text-align: center;
 }
 
-.last-btn .btn-6 {
+.last-btn .btn-six {
     width: 197px;
     padding: 10px;
     justify-content: center;
@@ -402,7 +402,7 @@ a {
     line-height: 30px;
 }
 
-.btn-6:hover {
+.btn-six:hover {
     color: var(--Black, #111);
     background: white;
 }
