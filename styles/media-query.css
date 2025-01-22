@@ -1,0 +1,144 @@
+@media screen and (max-width: 576px) {
+
+    /* Navbar adjustments */
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid orange;
+        margin-top: 0px;
+    }
+
+    .header-headline,
+    .nav-links {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .nav-phn-btn {
+        display: flex;
+        margin-right: 15px;
+        margin-bottom: -5px;
+    }
+
+    .header-logo {
+        margin-left: 15px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .banner-btn {
+        margin-top: 25px;
+    }
+
+    .banner-content {
+        max-width: 100%;
+    }
+
+    .banner-header {
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+
+    .banner-para {
+        font-size: 1rem;
+    }
+
+    .banner-content,
+    .banner-img {
+        text-align: center;
+    }
+
+    .banner-img img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: -80px;
+    }
+
+    /* curriculam section */
+    .curriculam {
+        flex-direction: column;
+    }
+
+    .school-curriculam-cards {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 15px;
+    }
+
+    .twobtns,
+    .cardstory1 {
+        display: none;
+    }
+
+    /* Stories section */
+    .stories {
+        flex-direction: column;
+
+        /* margin-left: 15px;
+    margin-right: 15px;*/
+        max-width: 100%;
+    }
+
+    .stories-card-grid {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        gap: 15px;
+
+    }
+
+    .card-story {
+
+        width: 174px;
+        margin-left: 16px;
+        margin-right: 16px;
+        height: 179.59px;
+        margin: 0;
+    }
+
+    .story-img {
+
+        width: 173.27px;
+        /* height: auto; */
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .story-header {
+        text-align: center;
+        align-items: center;
+        font-size: 0.57rem;
+    }
+
+    .story-btn {
+        margin-top: 3px;
+        margin-left: 15px;
+        padding: 5px 10px;
+    }
+
+    .measurement2 {
+        padding: 10px;
+    }
+
+    .view-all {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        padding: 5px 37px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .sect2-header {
+        font-size: 1.8rem;
+    }
+}
